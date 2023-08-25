@@ -1,6 +1,6 @@
 # Data Structures and Algorithms on Python
 
-# [Sort.ipynb](https://gitlab.com/Tomas245/dsaa/-/blob/main/sort.ipynb)
+# [Sort.ipynb](https://github.com/Tomas542/DSaA/blob/8c056a6539c2e98884e075d698f008ff286d9a25/sort.ipynb)
 In <b>sort.ipynb</b> you can find 9 sorting algorithms. Some of them have several implementations. You'll find:
 1. Merge sort
 2. Quick sort
@@ -17,7 +17,7 @@ In <b>sort.ipynb</b> you can find 9 sorting algorithms. Some of them have severa
 <b>Note</b> One of Quick sort implementation uses <b>NumPy</b>, so you should <b>pip install numpy</b> to run it.
 </div>
 
-# [Search.ipynb](https://gitlab.com/Tomas245/dsaa/-/blob/main/search.ipynb)
+# [Search.ipynb](https://github.com/Tomas542/DSaA/blob/8c056a6539c2e98884e075d698f008ff286d9a25/search.ipynb)
 In <b>search.ipynb</b> you can find 6 searching algorithms. You'll find:
 1. Linear search
 2. Binary search
