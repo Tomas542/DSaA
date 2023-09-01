@@ -14,10 +14,11 @@ In <b>sort.ipynb</b> you can find 10 sorting algorithms. Some of them have sever
 10. Bogo sort
 
 # [Search.ipynb](https://github.com/Tomas542/DSaA/blob/8c056a6539c2e98884e075d698f008ff286d9a25/search.ipynb)
-In <b>search.ipynb</b> you can find 6 searching algorithms. You'll find:
+In <b>search.ipynb</b> you can find 7 searching algorithms. Hash-based have several implementations. You'll find:
 1. Linear search
 2. Binary search
 3. Binary search tree
 4. Fibonacci search
 5. Interpolation search
 6. Bloom filter
+7. Hash-based search
