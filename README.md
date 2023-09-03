@@ -1,6 +1,6 @@
 # Data Structures and Algorithms on Python
 
-# [Sort.ipynb](https://github.com/Tomas542/DSaA/blob/8c056a6539c2e98884e075d698f008ff286d9a25/sort.ipynb)
+# [Sort.ipynb](https://github.com/Tomas542/DSaA/blob/main/sort.ipynb)
 In <b>sort.ipynb</b> you can find 10 sorting algorithms. Some of them have several implementations. You'll find:
 1. Merge sort
 2. Quick sort
@@ -13,7 +13,7 @@ In <b>sort.ipynb</b> you can find 10 sorting algorithms. Some of them have sever
 9. Stalin sort
 10. Bogo sort
 
-# [Search.ipynb](https://github.com/Tomas542/DSaA/blob/8c056a6539c2e98884e075d698f008ff286d9a25/search.ipynb)
+# [Search.ipynb](https://github.com/Tomas542/DSaA/blob/main/search.ipynb)
 In <b>search.ipynb</b> you can find 7 searching algorithms. Hash-based have several implementations. You'll find:
 1. Linear search
 2. Binary search
@@ -22,3 +22,11 @@ In <b>search.ipynb</b> you can find 7 searching algorithms. Hash-based have seve
 5. Interpolation search
 6. Bloom filter
 7. Hash-based search
+
+# [Graph.ipynb](https://github.com/Tomas542/DSaA/blob/main/graph.ipynb)
+In <b>graph.ipynb</b> you can find 5 graph algorithms. You'll find:
+1. Breadth First Search
+2. Depth First Search
+3. Levit
+4. Dijkstra
+5. Bellman-Ford
