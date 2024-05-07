@@ -3,9 +3,13 @@
 ---
 # Hello friends :hand:
 
-## This is my github repo with Data structures and algorithms on Python
+## This is my git repo with Data structures and algorithms. Here you can find code in:
+- Python
+- C (WIP)
+- C++ (WIP)
+- Rust (WIP)
 
-### :ledger:[Sort.ipynb](https://github.com/Tomas542/DSaA/blob/main/sort.ipynb)
+### :ledger:Sort (only Python for now)
 In <b>sort.ipynb</b> you can find 10 sorting algorithms. Some of them have several implementations. You'll find:
 1. Merge sort
 2. Quick sort
@@ -18,7 +22,7 @@ In <b>sort.ipynb</b> you can find 10 sorting algorithms. Some of them have sever
 9. Stalin sort
 10. Bogo sort
 
-### :mag_right:[Search.ipynb](https://github.com/Tomas542/DSaA/blob/main/search.ipynb)
+### :mag_right:Search (only Python for now)
 In <b>search.ipynb</b> you can find 7 searching algorithms. Hash-based have several implementations. You'll find:
 1. Linear search
 2. Binary search
@@ -28,7 +32,7 @@ In <b>search.ipynb</b> you can find 7 searching algorithms. Hash-based have seve
 6. Bloom filter
 7. Hash-based search
 
-### :arrow_right:[Graph.ipynb](https://github.com/Tomas542/DSaA/blob/main/graph.ipynb)
+### :arrow_right:Graph.ipynb (only Python for now)
 In <b>graph.ipynb</b> you can find 5 graph algorithms. You'll find:
 1. Breadth First Search
 2. Depth First Search
