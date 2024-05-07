@@ -1,7 +1,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=blue)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
-# Hello friends :hand:
+# Hello friends 👋
 
 ## This is my git repo with Data structures and algorithms. Here you can find code in:
 - Python
