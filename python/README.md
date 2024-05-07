@@ -1,15 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
----
-# Hello friends 👋
-
-## This is my git repo with Data structures and algorithms. Here you can find code in:
-- Python
-- C (WIP)
-- C++ (WIP)
-- Rust (WIP)
-
-### :ledger: Sort (only Python for now)
+### :ledger: Sort
 In <b>sort.ipynb</b> you can find 10 sorting algorithms. Some of them have several implementations. You'll find:
 1. Merge sort
 2. Quick sort

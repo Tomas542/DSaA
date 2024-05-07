@@ -1,2 +1,12 @@
 /.vscode
+
+# python libraries
 .venv
+
+# test and unfinished files
+foo.c
+merge.c
+
+# platform specific
+*.exe
+*.o
