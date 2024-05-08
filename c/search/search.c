@@ -9,6 +9,11 @@ int linear_search(int array[], size_t array_size, int target) {
     if (!is_sorted(array, array_size)) {
         return -1;
     }
+
+    // if target in bounds of sorted array
+    if (!in_bounds(array, array_size, target)) {
+        return -1;
+    }
     
     // iterate through array
     for (int i = 0; i < array_size; ++i){
@@ -29,6 +34,11 @@ int binary_search(int array[], size_t array_size, int target) {
     /* check if array sorted, cause we can use search only on
        sorted array */ 
     if (!is_sorted(array, array_size)) {
+        return -1;
+    }
+
+    // if target in bounds of sorted array
+    if (!in_bounds(array, array_size, target)) {
         return -1;
     }
 

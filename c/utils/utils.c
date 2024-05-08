@@ -37,3 +37,7 @@ bool is_sorted(int array[], size_t array_size) {
     
     return flag;
 }
+
+bool in_bounds(int array[], size_t array_size, int target) {
+    return ((array[0] <= target) && (target <= array[array_size-1]));
+}
