@@ -1,7 +1,8 @@
 /.vscode
 
-# python libraries
+# python libraries and files
 .venv
+__pycache__
 
 # test and unfinished files
 foo.c
