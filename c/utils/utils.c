@@ -26,16 +26,13 @@ int find_max(int array[], size_t array_size) {
 }
 
 bool is_sorted(int array[], size_t array_size) {
-    bool flag = true;
-
     for (int i = 0; i < array_size - 1; ++i) {
         if (array[i] > array[i+1]) {
-            flag = false;
-            break;
+            return false;
         }
     }
     
-    return flag;
+    return true;
 }
 
 bool in_bounds(int array[], size_t array_size, int target) {
