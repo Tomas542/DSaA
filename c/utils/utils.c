@@ -3,7 +3,8 @@
 
 #include "utils.h"
 
-int find_min(int array[], size_t array_size) {
+
+int find_min_val(const int array[], const size_t array_size) {
     int min_val = array[0];
 
     for (int i = 1; i < array_size; ++i) {
@@ -14,7 +15,22 @@ int find_min(int array[], size_t array_size) {
     return min_val;
 }
 
-int find_max(int array[], size_t array_size) {
+
+size_t find_min_idx(const int array[], const size_t array_size) {
+    int min_val = find_min_val(array, array_size);
+    
+    for (size_t i = 0; i < array_size; ++i) {
+        if (array[i] == min_val) {
+            return i;
+        }
+    }
+
+    // unrealistic, there is a bug in find_min_val than
+    return (size_t)-1;
+}
+
+
+int find_max_val(const int array[], const size_t array_size) {
     int max_val = array[0];
 
     for (int i = 1; i < array_size; ++i) {
@@ -25,7 +41,22 @@ int find_max(int array[], size_t array_size) {
     return max_val;
 }
 
-bool is_sorted(int array[], size_t array_size) {
+
+size_t find_max_idx(const int array[], const size_t array_size) {
+    int max_val = find_max_val(array, array_size);
+    
+    for (size_t i = 0; i < array_size; ++i) {
+        if (array[i] == max_val) {
+            return i;
+        }
+    }
+
+    // unrealistic, there is a bug in find_max_val than
+    return (size_t)-1;
+}
+
+
+bool is_sorted(const int array[], const size_t array_size) {
     for (int i = 0; i < array_size - 1; ++i) {
         if (array[i] > array[i+1]) {
             return false;
@@ -35,6 +66,7 @@ bool is_sorted(int array[], size_t array_size) {
     return true;
 }
 
-bool in_bounds(int array[], size_t array_size, int target) {
+
+bool in_bounds(const int array[], const size_t array_size, const int target) {
     return ((array[0] <= target) && (target <= array[array_size-1]));
 }

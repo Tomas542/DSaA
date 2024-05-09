@@ -3,43 +3,29 @@
 #include "search.h"
 #include "../utils/utils.h"
 
-int linear_search(int array[], size_t array_size, int target) {
-    /* check if array sorted, cause we can use search only on
-       sorted array */ 
-    if (!is_sorted(array, array_size)) {
-        return -1;
-    }
 
-    // if target in bounds of sorted array
-    if (!in_bounds(array, array_size, target)) {
-        return -1;
-    }
-    
+size_t linear_search(const int array[], const size_t array_size, const int target) {   
     // iterate through array
-    for (int i = 0; i < array_size; ++i){
+    for (size_t i = 0; i < array_size; ++i){
         // we found it
         if (array[i] == target) {
             return i;
         }
-
-        // in sorted array we can't get here if target inside
-        if (array[i] > target) {
-            return -1;
-        }
     }
-    return -1;
+    return (size_t)-1;
 }
 
-int binary_search(int array[], size_t array_size, int target) {
+
+size_t binary_search(const int array[], const size_t array_size, const int target) {
     /* check if array sorted, cause we can use search only on
        sorted array */ 
     if (!is_sorted(array, array_size)) {
-        return -1;
+        return (size_t)-1;
     }
 
     // if target in bounds of sorted array
     if (!in_bounds(array, array_size, target)) {
-        return -1;
+        return (size_t)-1;
     }
 
     // edge case when array is only one element
@@ -48,11 +34,11 @@ int binary_search(int array[], size_t array_size, int target) {
     }
 
     // two pointers and to check numbers
-    int l = 0;
-    int r = array_size - 1;
+    size_t l = 0;
+    size_t r = array_size - 1;
 
     // new position to move one of our pointers
-    int mid;
+    size_t mid;
 
     while (l < r) {
         // we found it
@@ -75,5 +61,5 @@ int binary_search(int array[], size_t array_size, int target) {
     }
 
     // we haven't found it
-    return -1;
+    return (size_t)-1;
 }
