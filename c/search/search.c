@@ -37,26 +37,27 @@ size_t binary_search(const int array[], const size_t array_size, const int targe
     size_t l = 0;
     size_t r = array_size - 1;
 
+    if (array[l] == target) {
+        return l;
+    } else if (array[r] == target) {
+        return r;
+    }
+    
     // new position to move one of our pointers
     size_t mid;
 
-    while (l < r) {
-        // we found it
-        if (array[l] == target) {
-            return l;
-        } else if (array[r] == target) {
-            return r;
-        }
-
+    while (l <= r) {
         // new position to move pointers
         mid = (l + r) / 2;
 
         // our target on the right from current middle
         if (array[mid] < target) {
             l = mid+1;
-        } else {
+        } else if (array[mid] > target){
             // or on the left
-            r = mid;
+            r = mid-1;
+        } else {
+            return mid;
         }
     }
 
