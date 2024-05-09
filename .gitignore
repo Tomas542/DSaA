@@ -1,11 +1,13 @@
 .vscode
 
+# all test files
+foo.*
+
 # python libraries and files
 .venv
 __pycache__
 
 # test and unfinished files
-foo.c
 merge.c
 
 # platform specific
