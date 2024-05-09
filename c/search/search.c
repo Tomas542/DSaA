@@ -28,11 +28,6 @@ size_t binary_search(const int array[], const size_t array_size, const int targe
         return (size_t)-1;
     }
 
-    // edge case when array is only one element
-    if (array_size == 1) {
-        return (array[0] == target) - 1;
-    }
-
     // two pointers and to check numbers
     size_t l = 0;
     size_t r = array_size - 1;
